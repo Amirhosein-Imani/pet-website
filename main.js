@@ -97,3 +97,19 @@ ScrollReveal().reveal(".about__content p" , {
     ...scrollRevealOption , delay : 1500
 
 })
+
+
+
+ScrollReveal().reveal(".product__card" , {
+
+    ...scrollRevealOption , interval : 500
+
+})
+
+
+
+ScrollReveal().reveal(".service__card" , {
+
+    duration: 1000 , interval : 500
+
+})
