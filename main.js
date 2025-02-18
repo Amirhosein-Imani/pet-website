@@ -113,3 +113,22 @@ ScrollReveal().reveal(".service__card" , {
     duration: 1000 , interval : 500
 
 })
+
+
+
+const swiper = new Swiper('.swiper' , {
+
+    slidesPerView: 3 , 
+    spaceBetween: 20 , 
+    loop: true ,
+    grabCursor: true ,
+
+    breakpoints: {
+
+        1024: { slidesPerView: 3 },
+        768: { slidesPerView: 2 },
+        480: { slidesPerView: 1 }
+
+    }    
+
+})
